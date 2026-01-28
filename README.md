@@ -93,32 +93,4 @@ classified = classifier.process(reviews)
 MIT Professional Education: Applied Data Science Program: Leveraging AI for Effective Decision-Making
 ```
 
-## Step 4: Create Supporting Files
 
-**requirements.txt:**
-```
-selenium>=4.0.0
-requests>=2.28.0
-beautifulsoup4>=4.11.0
-pandas>=1.5.0
-openpyxl>=3.0.0
-python-dotenv>=1.0.0
-openai>=1.0.0
-langchain>=0.1.0
-```
-
-**.gitignore:**
-```
-.env
-__pycache__/
-*.pyc
-data/*.csv
-data/*.xlsx
-.DS_Store
-venv/
-```
-
-**.env.example:**
-```
-OPENAI_API_KEY=your_key_here
-YOTPO_APP_KEY=your_key_here
